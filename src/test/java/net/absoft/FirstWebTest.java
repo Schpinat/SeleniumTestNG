@@ -17,7 +17,7 @@ public class FirstWebTest {
     }
     @BeforeMethod
     public void setUp() {
-        //System.setProperty("webdriver.chrome.driver","D:\\JAVA\\chromedriver_win32\\chromedriver.exe");
+
         ChromeOptions options = new ChromeOptions()
                 .addArguments("--window-size=1960,1060");
         driver = new ChromeDriver(options);
